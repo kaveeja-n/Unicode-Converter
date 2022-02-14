@@ -245,6 +245,8 @@ footer .footer_column p {
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
+  border: black 2px;
+  border-radius: 8px;
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
@@ -262,7 +264,7 @@ footer .footer_column p {
   box-sizing: border-box;
   border: 3px solid #d60000;
   border-radius: 6px;
-  background-color: #d8d7d7;
+  background-color: #ececec;
   font-size: 16px;
   resize: vertical;
   font-family: 'Open Sans', sans-serif;
@@ -274,7 +276,7 @@ footer .footer_column p {
 	box-sizing: border-box;	
 	border: 3px solid #00c4f5;
 	border-radius: 6px;
-	background-color: #d8d7d7;
+	background-color: #ececec;
 	font-size: 16px;
 	resize: vertical;
 	font-family: 'Noto Sans Sinhala', sans-serif;
