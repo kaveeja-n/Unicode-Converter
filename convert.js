@@ -1,4 +1,3 @@
-<!-- Begin
 var text;
 var nVowels;
 var consonants= new Array()
@@ -12,25 +11,25 @@ var specialCharUni= new Array()
 var specialChar= new Array()
 
 
-    vowelsUni[0]='ඌ';    vowels[0]='oo';    vowelModifiersUni[0]='ූ';
-    vowelsUni[1]='ඕ';    vowels[1]='o\\)';    vowelModifiersUni[1]='ෝ';
-    vowelsUni[2]='ඕ';    vowels[2]='oe';    vowelModifiersUni[2]='ෝ';
+    vowelsUni[0]='ඌ';    vowels[0]='uu';    vowelModifiersUni[0]='ූ';
+    vowelsUni[1]='ඕ';    vowels[1]='oo';    vowelModifiersUni[1]='ෝ';
+    vowelsUni[2]='ඕ';    vowels[2]='oo';    vowelModifiersUni[2]='ෝ';
     vowelsUni[3]='ආ';    vowels[3]='aa';    vowelModifiersUni[3]='ා';
-    vowelsUni[4]='ආ';    vowels[4]='a\\)';    vowelModifiersUni[4]='ා';
+    vowelsUni[4]='ආ';    vowels[4]='aa';    vowelModifiersUni[4]='ා';
     vowelsUni[5]='ඈ';    vowels[5]='Aa';    vowelModifiersUni[5]='ෑ';
-    vowelsUni[6]='ඈ';    vowels[6]='A\\)';    vowelModifier	sUni[6]='ෑ';
-    vowelsUni[7]='ඈ';    vowels[7]='ae';    vowelModifiersUni[7]='ෑ';
+    vowelsUni[6]='ඈ';    vowels[6]='AA';    vowelModifiersUni[6]='ෑ';
+    vowelsUni[7]='ඈ';    vowels[7]='Aa';    vowelModifiersUni[7]='ෑ';
     vowelsUni[8]='ඊ';    vowels[8]='ii';    vowelModifiersUni[8]='ී';
-    vowelsUni[9]='ඊ';    vowels[9]='i\\)';    vowelModifiersUni[9]='ී';
-    vowelsUni[10]='ඊ';    vowels[10]='ie';    vowelModifiersUni[10]='ී';
-    vowelsUni[11]='ඊ';    vowels[11]='ee';    vowelModifiersUni[11]='ී';
-    vowelsUni[12]='ඒ';    vowels[12]='ea';    vowelModifiersUni[12]='ේ';
-    vowelsUni[13]='ඒ';    vowels[13]='e\\)';    vowelModifiersUni[13]='ේ';
-    vowelsUni[14]='ඒ';    vowels[14]='ei';    vowelModifiersUni[14]='ේ';
-    vowelsUni[15]='ඌ';    vowels[15]='uu';    vowelModifiersUni[15]='ූ';
-    vowelsUni[16]='ඌ';    vowels[16]='u\\)';    vowelModifiersUni[16]='ූ';
+    vowelsUni[9]='ඊ';    vowels[9]='I';    vowelModifiersUni[9]='ී';
+    vowelsUni[10]='ඊ';    vowels[10]='Ii';    vowelModifiersUni[10]='ී';
+    vowelsUni[11]='ඊ';    vowels[11]='ii';    vowelModifiersUni[11]='ී';
+    vowelsUni[12]='ඒ';    vowels[12]='ee';    vowelModifiersUni[12]='ේ';
+    vowelsUni[13]='ඒ';    vowels[13]='ee';    vowelModifiersUni[13]='ේ';
+    vowelsUni[14]='ඒ';    vowels[14]='ee';    vowelModifiersUni[14]='ේ';
+    vowelsUni[15]='ඌ';    vowels[15]='U';    vowelModifiersUni[15]='ූ';
+    vowelsUni[16]='ඌ';    vowels[16]='Uu';    vowelModifiersUni[16]='ූ';
     vowelsUni[17]='ඖ';    vowels[17]='au';    vowelModifiersUni[17]='ෞ';
-    vowelsUni[18]='ඇ';    vowels[18]='/\a';    vowelModifiersUni[18]='ැ';
+    vowelsUni[18]='ඇ';    vowels[18]='Aa';    vowelModifiersUni[18]='ැ';
     
     vowelsUni[19]='අ';    vowels[19]='a';    vowelModifiersUni[19]='';
     vowelsUni[20]='ඇ';    vowels[20]='A';    vowelModifiersUni[20]='ැ';
@@ -38,84 +37,84 @@ var specialChar= new Array()
     vowelsUni[22]='එ';    vowels[22]='e';    vowelModifiersUni[22]='ෙ';
     vowelsUni[23]='උ';    vowels[23]='u';    vowelModifiersUni[23]='ු';
     vowelsUni[24]='ඔ';    vowels[24]='o';    vowelModifiersUni[24]='ො';
-    vowelsUni[25]='ඓ';    vowels[25]='I';    vowelModifiersUni[25]='ෛ';
-    nVowels=26;
-
-    specialConsonantsUni[0]='ං'; specialConsonants[0]=/\\n/g;
-    specialConsonantsUni[1]='ඃ'; specialConsonants[1]=/\\h/g;
-    specialConsonantsUni[2]='ඞ'; specialConsonants[2]=/\\N/g;
-    specialConsonantsUni[3]='ඍ'; specialConsonants[3]=/\\R/g;
-    //special characher Repaya
-    specialConsonantsUni[4]='ර්'+'\u200D'; specialConsonants[4]=/R/g;
-    specialConsonantsUni[5]='ර්'+'\u200D'; specialConsonants[5]=/\\r/g;
+    vowelsUni[25]='ඓ';    vowels[25]='ai';    vowelModifiersUni[25]='ෛ';
+    vowelsUni[26]='ං';    vowels[26]='x';    vowelModifiersUni[26]='ං';
+    vowelsUni[27]='ඃ';    vowels[27]='H';    vowelModifiersUni[27]='ඃ';
+    nVowels=28;
     
-    consonantsUni[0]='ඬ'; consonants[0]='nnd';
-    consonantsUni[1]='ඳ'; consonants[1]='nndh';
-    consonantsUni[2]='ඟ'; consonants[2]='nng';
+    consonantsUni[0]='ඬ'; consonants[0]='zd';
+    consonantsUni[1]='ඳ'; consonants[1]='zdh';
+    consonantsUni[2]='ඟ'; consonants[2]='zg';
     consonantsUni[3]='ථ'; consonants[3]='Th';
     consonantsUni[4]='ධ'; consonants[4]='Dh';
     consonantsUni[5]='ඝ'; consonants[5]='gh';
-    consonantsUni[6]='ඡ'; consonants[6]='Ch';
+    consonantsUni[6]='ඡ'; consonants[6]='chh';
     consonantsUni[7]='ඵ'; consonants[7]='ph';
     consonantsUni[8]='භ'; consonants[8]='bh';
-    consonantsUni[9]='ශ'; consonants[9]='sh';
+    consonantsUni[9]='ඣ'; consonants[9]='jh';
     consonantsUni[10]='ෂ'; consonants[10]='Sh';
-    consonantsUni[11]='ඥ'; consonants[11]='GN';
-    consonantsUni[12]='ඤ'; consonants[12]='KN';
+    consonantsUni[11]='ඥ'; consonants[11]='zh';
+    consonantsUni[12]='ඤ'; consonants[12]='zk';
     consonantsUni[13]='ළු'; consonants[13]='Lu';
-    consonantsUni[14]='ද'; consonants[14]='dh';
-    consonantsUni[15]='ච'; consonants[15]='ch';
-    consonantsUni[16]='ඛ'; consonants[16]='kh';
-    consonantsUni[17]='ත'; consonants[17]='th';
+    consonantsUni[14]='ඛ'; consonants[14]='kh';
+    consonantsUni[15]='ඨ'; consonants[15]='T';
+    consonantsUni[16]='ඪ'; consonants[16]='Dh';
+    consonantsUni[17]='ඳ'; consonants[17]='zq';
+    consonantsUni[18]='ධ'; consonants[18]='Q';
+    consonantsUni[19]='ඝ'; consonants[19]='G';
+    consonantsUni[20]='ඦ'; consonants[20]='zj';
     
-    consonantsUni[18]='ට'; consonants[18]='t';
-    consonantsUni[19]='ක'; consonants[19]='k';    
-    consonantsUni[20]='ඩ'; consonants[20]='d';
-    consonantsUni[21]='න'; consonants[21]='n';
-    consonantsUni[22]='ප'; consonants[22]='p';
-    consonantsUni[23]='බ'; consonants[23]='b';
-    consonantsUni[24]='ම'; consonants[24]='m';   
-    consonantsUni[25]='‍ය'; consonants[25]='\\u005C' + 'y';
-    consonantsUni[26]='‍ය'; consonants[26]='Y';
-    consonantsUni[27]='ය'; consonants[27]='y';
-    consonantsUni[28]='ජ'; consonants[28]='j';
-    consonantsUni[29]='ල'; consonants[29]='l';
-    consonantsUni[30]='ව'; consonants[30]='v';
-    consonantsUni[31]='ව'; consonants[31]='w';
-    consonantsUni[32]='ස'; consonants[32]='s';
-    consonantsUni[33]='හ'; consonants[33]='h';
-    consonantsUni[34]='ණ'; consonants[34]='N';
-    consonantsUni[35]='ළ'; consonants[35]='L';
-    consonantsUni[36]='ඛ'; consonants[36]='K';
-    consonantsUni[37]='ඝ'; consonants[37]='G';
-    consonantsUni[38]='ඨ'; consonants[38]='T';
-    consonantsUni[39]='ඪ'; consonants[39]='D';
-    consonantsUni[40]='ඵ'; consonants[40]='P';
-    consonantsUni[41]='ඹ'; consonants[41]='B';
-    consonantsUni[42]='ෆ'; consonants[42]='f';
-    consonantsUni[43]='ඣ'; consonants[43]='q';
+    consonantsUni[17]='ශ'; consonants[17]='S';
+    consonantsUni[18]='ද'; consonants[18]='d';
+    consonantsUni[18]='ද'; consonants[18]='q';
+    consonantsUni[19]='ච'; consonants[19]='ch';
+    consonantsUni[20]='ත'; consonants[20]='th';
+    consonantsUni[21]='ට'; consonants[21]='t';
+    consonantsUni[22]='ක'; consonants[22]='k';
+    consonantsUni[23]='ඩ'; consonants[23]='d';
+    consonantsUni[24]='න'; consonants[24]='n';
+    consonantsUni[25]='ප'; consonants[25]='p';
+    consonantsUni[26]='බ'; consonants[26]='b';
+    consonantsUni[27]='ම'; consonants[27]='m';
+    consonantsUni[28]='‍ය'; consonants[28]='\\u005C' + 'y';
+    consonantsUni[29]='‍ය'; consonants[29]='Y';
+    consonantsUni[30]='ය'; consonants[30]='y';
+    consonantsUni[31]='ජ'; consonants[31]='j';
+    consonantsUni[32]='ල'; consonants[32]='l';
+    consonantsUni[33]='ව'; consonants[33]='v';
+    consonantsUni[34]='ව'; consonants[34]='w';
+    consonantsUni[35]='ස'; consonants[35]='s';
+    consonantsUni[36]='හ'; consonants[36]='h';
+    consonantsUni[37]='ණ'; consonants[37]='N';
+    consonantsUni[38]='ළ'; consonants[38]='L';
+    consonantsUni[39]='ඛ'; consonants[39]='K';
+    consonantsUni[40]='ඝ'; consonants[40]='G';
+    consonantsUni[41]='ඵ'; consonants[41]='P';
+    consonantsUni[42]='ඹ'; consonants[42]='B';
+    consonantsUni[43]='ෆ'; consonants[43]='f';
     consonantsUni[44]='ග'; consonants[44]='g';
-    //last because we need to ommit this in dealing with Rakaransha
-    consonantsUni[45]='ර'; consonants[45]='r';
-
+    consonantsUni[46]='ක'; consonants[46]='c';
+    consonantsUni[45]='ර'; consonants[45]='r'; 
+    
     specialCharUni[0]='ෲ'; specialChar[0]='ruu';
     specialCharUni[1]='ෘ'; specialChar[1]='ru';
-    //specialCharUni[2]='්‍ර'; specialChar[2]='ra';
-    
+    specialCharUni[2]='්‍ර'; specialChar[2]='ra';
+
 
 function startText() {
     var s,r,v;
     text = document.txtBox.box1.value;  
+      
     //special consonents
-    for (var i=0; i<specialConsonants.length; i++){
+    for (var i=0; i<specialConsonants.length; i++)
         text = text.replace(specialConsonants[i], specialConsonantsUni[i]);
-    }
+   
     //consonents + special Chars
     for (var i=0; i<specialCharUni.length; i++){
         for (var j=0;j<consonants.length;j++){
             s = consonants[j] + specialChar[i];
             v = consonantsUni[j] + specialCharUni[i];
-            r = new RegExp(s, "g");
+            r = new RegExp(s,"g");
             text = text.replace(r, v);
         }
     }
@@ -124,12 +123,12 @@ function startText() {
         for (var i=0;i<vowels.length;i++){
             s = consonants[j] + "r" + vowels[i];
             v = consonantsUni[j] + "්‍ර" + vowelModifiersUni[i];
-            r = new RegExp(s, "g");
+            r = new RegExp(s,"g");
             text = text.replace(r, v);
         }
         s = consonants[j] + "r";
         v = consonantsUni[j] + "්‍ර";
-        r = new RegExp(s, "g");
+        r = new RegExp(s,"g");
         text = text.replace(r, v);
     }
     //consonents + vowel modifiers
@@ -137,20 +136,20 @@ function startText() {
         for (var j=0;j<nVowels;j++){ 
             s = consonants[i]+vowels[j];
             v = consonantsUni[i] + vowelModifiersUni[j];
-            r = new RegExp(s, "g");
+            r = new RegExp(s,"g");
             text = text.replace(r, v);
         }
     }
 
     //consonents + HAL
     for (var i=0; i<consonants.length; i++){
-        r = new RegExp(consonants[i], "g");
+        r = new RegExp(consonants[i],"g");
         text = text.replace(r, consonantsUni[i]+"්");
     }
         
     //vowels
     for (var i=0; i<vowels.length; i++){
-        r = new RegExp(vowels[i], "g");
+        r = new RegExp(vowels[i],"g");
         text = text.replace(r, vowelsUni[i]);
     }
 
@@ -178,5 +177,3 @@ function changeVisibility(){
         schemeVisible=1;
     }
 }
-//  End -->
-// JavaScript Document
