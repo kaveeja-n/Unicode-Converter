@@ -62,10 +62,8 @@ var specialChar= new Array()
     consonantsUni[17]='ඳ'; consonants[17]='zq';
     consonantsUni[18]='ධ'; consonants[18]='Q';
     consonantsUni[19]='ඝ'; consonants[19]='G';
-    consonantsUni[20]='ඦ'; consonants[20]='zj';
-    
     consonantsUni[17]='ශ'; consonants[17]='S';
-    consonantsUni[18]='ද'; consonants[18]='d';
+
     consonantsUni[18]='ද'; consonants[18]='q';
     consonantsUni[19]='ච'; consonants[19]='ch';
     consonantsUni[20]='ත'; consonants[20]='th';
@@ -95,6 +93,8 @@ var specialChar= new Array()
     consonantsUni[44]='ග'; consonants[44]='g';
     consonantsUni[46]='ක'; consonants[46]='c';
     consonantsUni[45]='ර'; consonants[45]='r'; 
+    consonantsUni[46]='ද'; consonants[46]='dh';
+    consonantsUni[47]='ඦ'; consonants[47]='zj';
     
     specialCharUni[0]='ෲ'; specialChar[0]='ruu';
     specialCharUni[1]='ෘ'; specialChar[1]='ru';
